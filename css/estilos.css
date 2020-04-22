@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: 2.3em;
+	text-shadow: 2px 2px 8px #FF0000;
+	
+}
+
+
+.moto{
+	color: #FFFFFF;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+#layout {
+	width: 80%;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 450px;
+	
+}
+
+p {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+.wrapper {
+  width: 120%;
+  margin: auto;
+  overflow:hidden;
+  float: left; 
+}
+
+#wrap {
+	width: 95%;
+	margin: 0 auto;
+}
+header {
+  /*background: rgba(0,0,0,0.9);*/
+  background-color:rgba(0,0,0,1);
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 60px;
+}
+
+nav {
+  float: left; 
+}
+
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+} 
+nav ul li:hover {
+  background: #FE642E;
+}
+.contenido {
+  padding-top: 80px;
+
+
+}
+nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+nav li:hover > ul{
+	display: block;
+
+}
+
+
+
+@media ( max-width: 460px){
+	 #contenedor{
+		clear: both;
+		float: none;
+		margin: 0 auto;
+		margin-left: 15%;
+		width: 65%;
+	}
+	
+
+	#contenedor{
+		width: 65%;
+		background-color:rgba(0,0,128,0.5);
+
+	}
+
+	
+}
+
+#m-soc3{width:220px;height:50px;margin:18px 0 0 10px;padding:0}
+#m-soc3 li{list-style:none;float:left;border:none;margin:4px;padding:0}
+#m-soc3 li a{background:url(http://2.bp.blogspot.com/-1iSzINNp5eg/T1kraVj3_gI/AAAAAAAAJEE/WP_5VVhaVjg/s1600/sprite3-compartidisimo.png) no-repeat 0 0;display:block;position:relative;width:33px;height:33px;overflow:visible;margin:0;padding:0}
+#m-soc3 li a.twitter{background-position:-33px 0}
+#m-soc3 li a.facebook{background-position:-66px 0}
+#m-soc3 li a.google{background-position:-99px 0}
+#m-soc3 li a span{background:#FE642E;position:absolute;top:-5px;left:-10px;width:auto;height:auto;opacity:0;text-align:left;color:#fff;filter:alpha(opacity=0);white-space:nowrap;border-radius:3px;font-size:12px;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out;padding:3px}
+#m-soc3 li a:hover{text-decoration:none}
+#m-soc3 li a:hover span{opacity:.7;filter:alpha(opacity=70);top:-23px}
+
+
+
+@import url();
+* {margin: 0; padding: 0; border: 0 none;}
+html, body {height: 100%; width: 100%; font-size: 1rem; font-family: 'Exo', sans-serif; font-weight: 100;}
+.cont-slider {
+    position: relative;
+    height: 90vh;
+    max-height: 50vh;
+    width: auto;
+    min-width:50vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider {
+    animation: deslizante 25s ease-out 0s backwards infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+    height: 100%;
+}
+.slide {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 100%;    
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.uno {
+  background-image: url(http://img3.dailymotos.com/wp-content/uploads/2013/10/ktm-1290.jpg);}
+.dos {
+  background-image: url(https://acidmoto.ch/cms/sites/default/files/img/delta/k/ktm-790-duke-prototype_01.jpg);}
+.tres {
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/kawasaki-ninja-wallpapers-4.jpg);}
+.cuatro {
+  background-image: url(https://www.wilock.com/wp-content/uploads/2018/09/KTM-790-Duke.jpeg);}
+.cinco {
+  background-image: url(https://acidmoto.ch/cms/sites/default/files/img/delta/k/ktm-790-duke-prototype_01.jpg);} 
+
+@keyframes deslizante {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }   
+  100% {left: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
